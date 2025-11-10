@@ -35,16 +35,6 @@
 			path = PointCloudExample;
 			sourceTree = "<group>";
 		};
-		D40E97392EC2745600480907 /* PointCloudExampleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PointCloudExampleTests;
-			sourceTree = "<group>";
-		};
-		D40E97432EC2745600480907 /* PointCloudExampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PointCloudExampleUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				D40E97292EC2745500480907 /* PointCloudExample */,
-				D40E97392EC2745600480907 /* PointCloudExampleTests */,
-				D40E97432EC2745600480907 /* PointCloudExampleUITests */,
 				D40E97282EC2745500480907 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				D40E97382EC2745600480907 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D40E97392EC2745600480907 /* PointCloudExampleTests */,
-			);
 			name = PointCloudExampleTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				D40E97422EC2745600480907 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D40E97432EC2745600480907 /* PointCloudExampleUITests */,
 			);
 			name = PointCloudExampleUITests;
 			packageProductDependencies = (
@@ -400,6 +382,7 @@
 				DEVELOPMENT_TEAM = CW6DSWBLD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app user the camera to capture LiDAR depth data for building point clouds.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +411,7 @@
 				DEVELOPMENT_TEAM = CW6DSWBLD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app user the camera to capture LiDAR depth data for building point clouds.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
